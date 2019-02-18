@@ -586,12 +586,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KCZ5LUU3K3;
+				DEVELOPMENT_TEAM = G452DAFF38;
 				GCC_PREFIX_HEADER = "/Users/zhaoguian/Desktop/面试题/A_APP_OC/PrefixHeader.pch";
 				INFOPLIST_FILE = A_APP_OC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "XiaoWu.A-APP-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaowu-xuexi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -603,12 +603,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KCZ5LUU3K3;
+				DEVELOPMENT_TEAM = G452DAFF38;
 				GCC_PREFIX_HEADER = "/Users/zhaoguian/Desktop/面试题/A_APP_OC/PrefixHeader.pch";
 				INFOPLIST_FILE = A_APP_OC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "XiaoWu.A-APP-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaowu-xuexi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
