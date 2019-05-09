@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4C86410F12CE0D0ADB740B46 /* libPods-A_APP_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DAC9891CA109E74B679433 /* libPods-A_APP_OC.a */; };
+		B909695B227608A20037DE00 /* FWBookshelfCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B9096951227608A10037DE00 /* FWBookshelfCollectionViewLayout.m */; };
+		B909695C227608A20037DE00 /* FWBookShelfDecarationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9096952227608A10037DE00 /* FWBookShelfDecarationView.m */; };
+		B909695D227608A20037DE00 /* FWAncientPoetryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9096954227608A10037DE00 /* FWAncientPoetryCollectionViewController.m */; };
+		B909695E227608A20037DE00 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B9096955227608A10037DE00 /* LXReorderableCollectionViewFlowLayout.m */; };
+		B909695F227608A20037DE00 /* bookShelfBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B9096958227608A20037DE00 /* bookShelfBackground.png */; };
+		B9096960227608A20037DE00 /* boolshelf.png in Resources */ = {isa = PBXBuildFile; fileRef = B9096959227608A20037DE00 /* boolshelf.png */; };
 		B9774A27200DE0780048DF3D /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B9774A26200DE0780048DF3D /* BaseVC.m */; };
 		B9774A2A200DE0900048DF3D /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B9774A29200DE0900048DF3D /* BaseModel.m */; };
 		B9774A30200DEA4C0048DF3D /* Dome1.m in Sources */ = {isa = PBXBuildFile; fileRef = B9774A2F200DEA4C0048DF3D /* Dome1.m */; };
@@ -43,6 +49,16 @@
 		35DAC9891CA109E74B679433 /* libPods-A_APP_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A_APP_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DC0872D9CF20FAFBDEC87F /* Pods-A_APP_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_APP_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-A_APP_OC/Pods-A_APP_OC.release.xcconfig"; sourceTree = "<group>"; };
 		8F0ACF1F42EC7A91F8C78305 /* Pods-A_APP_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_APP_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-A_APP_OC/Pods-A_APP_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		B9096951227608A10037DE00 /* FWBookshelfCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWBookshelfCollectionViewLayout.m; sourceTree = "<group>"; };
+		B9096952227608A10037DE00 /* FWBookShelfDecarationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWBookShelfDecarationView.m; sourceTree = "<group>"; };
+		B9096953227608A10037DE00 /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		B9096954227608A10037DE00 /* FWAncientPoetryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWAncientPoetryCollectionViewController.m; sourceTree = "<group>"; };
+		B9096955227608A10037DE00 /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		B9096956227608A10037DE00 /* FWBookshelfCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWBookshelfCollectionViewLayout.h; sourceTree = "<group>"; };
+		B9096957227608A20037DE00 /* FWAncientPoetryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWAncientPoetryCollectionViewController.h; sourceTree = "<group>"; };
+		B9096958227608A20037DE00 /* bookShelfBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookShelfBackground.png; sourceTree = "<group>"; };
+		B9096959227608A20037DE00 /* boolshelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boolshelf.png; sourceTree = "<group>"; };
+		B909695A227608A20037DE00 /* FWBookShelfDecarationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWBookShelfDecarationView.h; sourceTree = "<group>"; };
 		B9774A20200DDEAC0048DF3D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B9774A24200DE02F0048DF3D /* AdaptedMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaptedMacro.h; sourceTree = "<group>"; };
 		B9774A25200DE0780048DF3D /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
@@ -114,6 +130,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B9096950227608230037DE00 /* Dome3书架 */ = {
+			isa = PBXGroup;
+			children = (
+				B9096958227608A20037DE00 /* bookShelfBackground.png */,
+				B9096959227608A20037DE00 /* boolshelf.png */,
+				B9096957227608A20037DE00 /* FWAncientPoetryCollectionViewController.h */,
+				B9096954227608A10037DE00 /* FWAncientPoetryCollectionViewController.m */,
+				B9096956227608A10037DE00 /* FWBookshelfCollectionViewLayout.h */,
+				B9096951227608A10037DE00 /* FWBookshelfCollectionViewLayout.m */,
+				B909695A227608A20037DE00 /* FWBookShelfDecarationView.h */,
+				B9096952227608A10037DE00 /* FWBookShelfDecarationView.m */,
+				B9096953227608A10037DE00 /* LXReorderableCollectionViewFlowLayout.h */,
+				B9096955227608A10037DE00 /* LXReorderableCollectionViewFlowLayout.m */,
+			);
+			path = "Dome3书架";
+			sourceTree = "<group>";
+		};
 		B9774A21200DDFF00048DF3D /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +159,7 @@
 		B9774A22200DDFF00048DF3D /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				B9096950227608230037DE00 /* Dome3书架 */,
 				B9774A2D200DE86B0048DF3D /* Dome1--NSNumber数值计算 */,
 				B9774A32200DF5830048DF3D /* Dome2--字符串分割 */,
 			);
@@ -339,7 +373,9 @@
 			files = (
 				B9D3C2381FF118D900F0B420 /* LaunchScreen.storyboard in Resources */,
 				B9D3C2351FF118D900F0B420 /* Assets.xcassets in Resources */,
+				B9096960227608A20037DE00 /* boolshelf.png in Resources */,
 				B9D3C2331FF118D900F0B420 /* Main.storyboard in Resources */,
+				B909695F227608A20037DE00 /* bookShelfBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +452,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9774A35200DF59A0048DF3D /* Dome2.m in Sources */,
+				B909695D227608A20037DE00 /* FWAncientPoetryCollectionViewController.m in Sources */,
+				B909695B227608A20037DE00 /* FWBookshelfCollectionViewLayout.m in Sources */,
 				B9774A30200DEA4C0048DF3D /* Dome1.m in Sources */,
+				B909695C227608A20037DE00 /* FWBookShelfDecarationView.m in Sources */,
 				B9D3C2301FF118D900F0B420 /* ViewController.m in Sources */,
 				B9D3C23B1FF118D900F0B420 /* main.m in Sources */,
+				B909695E227608A20037DE00 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
 				B9D3C22D1FF118D900F0B420 /* AppDelegate.m in Sources */,
 				B9774A2A200DE0900048DF3D /* BaseModel.m in Sources */,
 				B9774A27200DE0780048DF3D /* BaseVC.m in Sources */,

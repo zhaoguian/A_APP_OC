@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import "Dome1.h"
 #import "Dome2.h"
+#import "FWBookshelfCollectionViewLayout.h"
+#import "FWAncientPoetryCollectionViewController.h"
+
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) NSArray * arr;
 @end
@@ -53,7 +56,13 @@
     }else if (indexPath.row == 1){
         Dome2 * dome = [[Dome2 alloc]init];
         [self.navigationController pushViewController:dome animated:YES];
+    }else if (indexPath.row == 2){
+        
+        FWBookshelfCollectionViewLayout *layOut = [[FWBookshelfCollectionViewLayout alloc] init];
+        FWAncientPoetryCollectionViewController *vc = [[FWAncientPoetryCollectionViewController alloc] initWithCollectionViewLayout:layOut];
+        [self.navigationController pushViewController:vc animated:YES];
     }
+    
 }
 
 - (void)setupUI {

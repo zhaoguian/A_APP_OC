@@ -7,7 +7,6 @@
 //
 
 #import "Dome1.h"
-
 @interface Dome1 ()
 @property (nonatomic, strong) UILabel * label;
 @property (nonatomic, strong) UILabel * la;
